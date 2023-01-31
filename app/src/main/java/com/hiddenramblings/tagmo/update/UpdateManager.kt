@@ -1,4 +1,4 @@
-package com.hiddenramblings.tagmo.browser
+package com.hiddenramblings.tagmo.update
 
 import android.app.PendingIntent
 import android.content.ActivityNotFoundException
@@ -15,6 +15,7 @@ import com.google.android.play.core.appupdate.AppUpdateManagerFactory
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.UpdateAvailability
 import com.hiddenramblings.tagmo.*
+import com.hiddenramblings.tagmo.browser.BrowserActivity
 import com.hiddenramblings.tagmo.eightbit.io.Debug
 import com.hiddenramblings.tagmo.eightbit.net.JSONExecutor
 import com.hiddenramblings.tagmo.eightbit.net.JSONExecutor.ResultListener

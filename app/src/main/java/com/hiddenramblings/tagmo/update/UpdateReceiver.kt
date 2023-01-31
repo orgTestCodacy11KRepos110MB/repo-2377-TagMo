@@ -1,4 +1,4 @@
-package com.hiddenramblings.tagmo
+package com.hiddenramblings.tagmo.update
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,6 +7,7 @@ import android.content.pm.PackageInstaller
 import android.os.Build
 import android.os.Parcelable
 import android.widget.Toast
+import com.hiddenramblings.tagmo.BuildConfig
 import com.hiddenramblings.tagmo.browser.BrowserActivity
 import com.hiddenramblings.tagmo.eightbit.io.Debug
 import java.net.URISyntaxException
